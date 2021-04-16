@@ -1,0 +1,136 @@
+header {
+	color:blue;
+	text-align: center;
+	background: gray;
+	position: fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: brown;
+
+}
+header a {
+	
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+a:hover {
+	background: blue;
+	color:yellow;
+}
+
+header li{
+
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+
+}
+
+header h4 {
+	text-align: right;
+	color: yellow;
+}
+
+section {
+
+	padding-top: 3.5cm;
+	text-align: justify;
+	background: lightblue;
+	background: url("../img/islapascua.jpg"), url("../img/isla.jpg");
+	background-position: right;
+    background-repeat: repeat-y, repeat;
+    background-size: 50%;
+
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	color:yellow;
+	font-size: 20px;
+
+}
+
+section h2 {
+	text-align: center;
+	color: lime;
+}
+
+div{
+	background: url("../img/valleluna.jpg");
+	background-size: 50%;
+}
+
+footer {
+	color:white;
+	text-align: right;
+	background: black;
+}
+
+
+ul {
+	
+	list-style-type: none
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	
+}
+
+body {
+	color: yellow;
+	padding-top: 3.5cm;
+	background: url("../img/islachiloe.jpg") right repeat-y, url("../img/valleluna.jpg") left repeat-y, url("../img/islapascua.jpg") center repeat-y;
+	background-size: 33%;
+}
+
+body h2 {
+	color: lime;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+header h1 {
+	font-size: 16px;
+	text-transform: uppercase;
+
+}
+header {
+	background: red;
+	font-size: 14px;
+}
+header a {
+	font-size: 12px;
+
+}
+
+section {
+	font-size: 14px;
+	background: url("../img/gatos.gif");
+	background-size: 100%;
+}
+
+a:hover {
+	background: yellow;
+	color:blue;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+body  {
+	text-align: justify;
+}
+
+div {
+	background-size: 100%;
+}
+
+}
